@@ -38,7 +38,6 @@
                 </div>
             </div>
             <div class="col-md-8">
-                <h2>List of Projects & Employees</h2>
                 <table class="table table-bordered">
                     <thead>
                         <tr>
@@ -78,6 +77,8 @@
             </div>
         </div>
     </div>
+
+    <?php include 'includes/footer.php'; ?>
 
 </body>
 
