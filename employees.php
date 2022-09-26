@@ -27,7 +27,7 @@
                 <?php session_unset();
                 } ?>
                 <div class="card card-body">
-                <form action="create_employee.php" method="POST">
+                    <form action="create_employee.php" method="POST">
                         <div class="form-group mb-4">
                             <input type="text" name="firstName" class="form-control" placeholder="first name" autofocus>
                         </div>
@@ -45,7 +45,7 @@
                     <thead>
                         <tr>
                             <th>Id</th>
-                            <th>Name</th>
+                            <th>First Name</th>
                             <th>Last Name</th>
                             <th>Project</th>
                             <th>Actions</th>
